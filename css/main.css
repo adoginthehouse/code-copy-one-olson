@@ -1,0 +1,114 @@
+/* BODY */
+
+body {
+	background-color: #E6E6E6;
+	margin: 0;
+	padding: 0;
+}
+
+/* POST */
+
+.post {
+	background-color: #FFFFFF;
+	width: 500px;
+	margin: 2% 25% 0% 25%;
+	border: 1px solid #000;
+	border-radius: 2px;
+}
+
+p {
+	font-family: arial;
+	color: black;
+	margin: 0;
+	font-size: 12px;
+}
+
+.fa-adjust {
+	font-size: 20px!important;
+}
+
+/* POST HEADER */
+
+.post .post-header {
+	padding: 15px;
+}
+
+.post .profile-pic {
+	display: inline-block;
+	float: left;
+	width: 20px;
+	vertical-align: top;
+}
+
+.post .username {
+	display: inline-block;
+	float: left;
+	width: 218px;
+	padding-left: 10px;
+	vertical-align: top;
+}
+
+.post .time-frame {
+	display: inline-block;
+	float: left;
+	text-align: right;
+	width: 222px;
+	vertical-align: top;
+}
+
+.clear {
+	clear: both;
+}
+
+/* POST PICTURE */
+
+.post .actual-picture {
+	width: 500px;
+}
+
+/* POST FOOTER */
+
+.post .post-footer {
+	padding: 15px;
+	margin-bottom: 10px;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.8em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-color: #cdcdd3;
+}
+
+.post .like {
+	display: inline-block;
+	float: left;
+	width: 20px;
+	vertical-align: top;
+	color: #cdcdd3;
+}
+
+.post .comment {
+	display: inline-block;
+	float: left;
+	width: 218px;
+	padding-left: 10px;
+	vertical-align: top;
+}
+
+.post .comment p {
+	color: #cdcdd3;
+}
+
+.post .share {
+	display: inline-block;
+	float: left;
+	text-align: right;
+	width: 222px;
+	vertical-align: top;
+	color: #cdcdd3;
+}
